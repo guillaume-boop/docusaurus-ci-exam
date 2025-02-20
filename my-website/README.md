@@ -1,41 +1,17 @@
-# Website
+creer un repo sur github
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+en local
 
-### Installation
+git init 
 
-```
-$ yarn
-```
+git remote add origin https://github.com/guillaume-boop/docusaurus-ci-exam.git 
 
-### Local Development
+npx create-docusaurus@latest my-website classic 
 
-```
-$ yarn start
-```
+Creer le fichier push.js et configurer action et page sur github 
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+git add . git commit -m "tentative de deploy" 
 
-### Build
+git push origin main
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Le push a marché, j'ai un url mais 404 et depuis je n'arrive meme plus a add
